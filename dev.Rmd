@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r}
-
+devtools::install_github("willschulz/panic")
 ```
 
 
