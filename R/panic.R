@@ -7,7 +7,7 @@
 #' @return
 #' @export
 panic <- function(mins = 60, banner = TRUE){
-  if (banner) {message(crayon::bgRed(crayon::white(paste0(readLines(system.file("ascii/", "panic.txt", package = "panic")), collapse = "\n"))))}
+  if (banner) {message(crayon::red(paste0(readLines(system.file("ascii/", "panic.txt", package = "panic")), collapse = "\n")))}
   a <- 0
   while (a<mins) {
     for(i in 1:6){

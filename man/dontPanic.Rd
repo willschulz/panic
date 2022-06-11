@@ -4,12 +4,7 @@
 \alias{dontPanic}
 \title{Don't Panic}
 \usage{
-dontPanic(mins = 60, banner = TRUE)
-}
-\arguments{
-\item{mins}{For how many minutes should the alarm continue to sound? Defaults to 60.}
-
-\item{banner}{Show a "PANIC" banner message in ASCII art? Defaults to TRUE.}
+dontPanic()
 }
 \value{
 

@@ -51,7 +51,9 @@ writeLines(panic, con = "inst/ascii/dont_panic.txt")
 
 
 ```{r}
+panic::panic()
 
+panic::dontPanic()
 
 ```
 
